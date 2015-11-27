@@ -92,4 +92,9 @@ setup(
         'python-dateutil',
     ],
     extras_require=EXTRAS,
+    entry_points={
+        'console_scripts': [
+            "udplog-send = udplog.cli:send",
+        ]
+    },
 )
