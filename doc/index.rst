@@ -34,7 +34,7 @@ Protocol
 
 A log event a combination of a category identifier (ASCII, matching the regular
 expression ``^[0-9A-Za-z_]+$``) and a set of name/value pairs. The UDP wire
-protocol represents an event as a single datagram composed of the the category,
+protocol represents an event as a single datagram composed of the category,
 a colon character, an optional whitespace character and the name/value pairs
 rendered as a JSON object::
 
